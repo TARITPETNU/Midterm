@@ -1,0 +1,38 @@
+<% include ../partials/Header %>
+<br>
+<div class="container">
+    <h1><b>Subjects <a class="btn btn-primary" href="/Products/Add/" style="float: right;">Add New Subject</a></b>
+    </h1>
+    <br>
+    <div class="jumbotron">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                   <!-- <th scope="col">Name</th>
+                    <th scope="col">Room</th>
+                    <th scope="col">Schedule</th> -->
+                </tr>
+            </thead>
+            <tbody>
+
+                <% Data.forEach(function(Product){ %>
+                <tr>
+                    <td><%= Product.subject_id %></td>
+                    <!--<td><%= Product.subject_name %></td>
+                    <td><%= Product.room %></td>
+                    <td><%= Product.schedule %></td>-->
+                    <td>
+                        <a class="btn btn-primary" href="/Products/Detail/<%= Product.subject_id %>">View</a>
+                        <a class="btn btn-success" href="/Products/Edit/<%= Product.subject_id %>">Edit</a>
+                        <a class="btn btn-danger" href="/Products/Delete/<%= Product.subject_id %>">Delete</a>
+                        
+                    </td>
+                </tr>
+                <%   });%>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<% include ../partials/Footer %>

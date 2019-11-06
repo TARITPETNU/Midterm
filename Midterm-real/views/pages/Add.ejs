@@ -1,0 +1,34 @@
+<% include ../partials/Header %>
+
+<div class="container">
+    <br>
+    <h1>Add subject</h1><br>
+
+    <div class="container">
+        <form action="/ProductAdd" method="POST">
+
+            <div class="form-group">
+                <label for="">ID</label>
+                <input type="text" value="" class="form-control" name="subject_id" >
+            </div>
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" value="" class="form-control" name="subject_name">
+            </div>
+            <div class="form-group">
+                <label for="">Room</label>
+                <input type="text" value="" class="form-control" name="room">
+            </div>
+            <div class="form-group">
+                <label for="">Schedule</label>
+                <input type="text" value="" class="form-control" name="schedule">
+            </div>
+            <center><br>
+                <button type="submit" class="btn btn-primary" href="/ProductSave">Save</button>
+            </center><br>
+        </form>
+    </div>
+
+</div>
+</div>
+<% include ../partials/Footer %>

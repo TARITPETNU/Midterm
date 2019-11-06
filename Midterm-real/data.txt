@@ -1,0 +1,35 @@
+/* 1 */
+{
+    "_id" : ObjectId("5d9e98c3d97cf03e8bd35bf5"),
+    "subject_id" : "140-390",
+    "subject_name" : "Fullstack JSS",
+    "room" : "1202A",
+    "schedule" : "Thursday"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5dbe4c0a113f1202906badbc"),
+    "subject_id" : "140-334",
+    "subject_name" : "Internet of Things ",
+    "room" : "14080",
+    "schedule" : "Wednesdays"
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5dc1707121373011e4ebb964"),
+    "subject_id" : "140-330",
+    "subject_name" : "OS",
+    "room" : "1408",
+    "schedule" : "Friday"
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("5dc2e58e090d321bbc6fe12c"),
+    "subject_id" : "--",
+    "subject_name" : "--",
+    "room" : "--",
+    "schedule" : "--"
+}
